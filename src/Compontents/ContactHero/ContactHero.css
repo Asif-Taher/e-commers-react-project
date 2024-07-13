@@ -1,0 +1,22 @@
+.contact-hero{
+    width: 100%;
+    background-image: url('../../Assets/banner_6.png');
+    background-position: center;
+    background-size: cover;
+}
+.contact-container{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-container h2{
+  color:white;
+  font-size: 50px;
+}
+.contact-hero-firest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  cursor: pointer;
+}

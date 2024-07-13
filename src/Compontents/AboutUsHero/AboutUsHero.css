@@ -1,0 +1,24 @@
+.aboutus-hero{
+    width: 100%;
+    height: 500px;
+    background-image: url('../../Assets/banner_2.png');
+    background-position: center;
+    background-size: cover;
+}
+.aboutus-container{
+      text-align: center;
+  padding-top: 100px;
+
+}
+.aboutus-container h2{
+    color: rgba(0, 26, 255, 0.612);
+    font-size: 50px;
+}
+.aboutus-hero-firest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    cursor: pointer;
+}

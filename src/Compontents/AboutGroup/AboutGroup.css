@@ -1,0 +1,30 @@
+.about-group{
+    width: 100%;
+    height: 400px;
+    background-image: url('../../Assets/banner_3.png');
+    background-size: cover;
+    background-position: center;
+}
+.about-group-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.about-group-first {
+    display: flex;
+    align-items: center;
+ }
+.about-group-first img{
+    width: 60px;
+    height: 60px;
+}
+.about-group-right {
+    margin-left: 15px;
+}
+.about-group-right h2{
+    color: white;
+}
+.about-group-right p{
+    color: white;
+}

@@ -1,0 +1,13 @@
+.about-client-container{
+    margin-top: 120px;
+}
+.about-client{
+    margin: 30px 120px;
+}
+.about-client-container{
+    display: flex;
+    gap: 60px;
+}
+.client-container-letf img{
+    width: 250px;
+}

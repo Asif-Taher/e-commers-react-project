@@ -1,0 +1,7 @@
+.about-team-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+   margin: 30px 100px;
+}

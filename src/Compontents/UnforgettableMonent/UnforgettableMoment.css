@@ -1,0 +1,25 @@
+.unforgettable-moment-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.unforgettable-moment{
+    margin: 120px 50px;
+}
+.unforgettable-moment p{
+     text-align: center;
+}
+.unforgettable-moment h2{
+      text-align: center;
+}
+.ufforgetable-right-first{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.unforgettable-left img{
+    width: 100%;
+}
+.unforgettable-right img{
+    width: 100%;
+}

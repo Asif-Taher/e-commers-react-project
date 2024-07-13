@@ -1,0 +1,70 @@
+.natural-scenary{
+    width: 100%;
+}
+.natural-scenary-h2{
+    font-size: 45px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.natural-scenary-p{
+    text-align: center;
+}
+.natural-scenary hr{
+    width: 30px;
+    height: 1px;
+    background-color: red;
+}
+.natural-scenary-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-img-left .icon-left{
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+.arrow-img-left{
+    background-color:#E8E8E8;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.arrow-img-rignt{
+    background-color:#E8E8E8;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.arrow-img-rignt .icon-right{
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.natural-scenary-image{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 15px 30px;
+   gap: 10px;
+  padding: 10px;
+}
+.natural-scenary-image img{
+   width: 400px;
+   height: 300px;
+}
+.middle-img h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-top: -9px;
+}
+.natural-scenary-image p{
+    font-size: 15px;
+    margin-top: -19px;
+}

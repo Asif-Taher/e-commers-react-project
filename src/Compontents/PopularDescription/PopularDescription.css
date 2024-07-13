@@ -1,0 +1,37 @@
+.popular-description{
+    margin: 130px 60px;
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popular-left h2{
+    font-size: 45px;
+}
+.popular-left p{
+    font-size: 16px;
+}
+.popular-right button{
+    padding: 15px 30px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.popular-right button:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+ 
+}
+/* cart design */
+.popular-cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+ }

@@ -1,0 +1,95 @@
+.tip-artical{
+    margin: 100px 62px;
+}
+.tip-artical-container{
+    width: 100%;
+    height: 800px;
+}
+.tip-artical-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tip-artical-first-right button{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+.tip-artical-first-right button:hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.tip-artical-second{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+.tip-artical-second-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 40%;
+}
+
+.tip-cart-image{
+    width: 100%;
+    height: 420px;
+}
+.tip-artical-cart{
+    background-color: #fff;
+    box-shadow: 5px 3px 5px 4px #ccc;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.tip-artical-cart hr{
+    height: 2px;
+    width: 100px;
+    color: black;
+}
+.tip-artical-cart button{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+.tip-artical-cart button:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.tip-artical-second-right{
+    flex-basis: 55%;
+}
+.tip-artical-right-cart{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 5px 3px 5px 4px #ccc ;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tip-artical-right-cart h2{
+font-size: 25px;
+font-weight: 500;
+margin-top:-20px ;
+}
+
+.tip-artical-right-cart button{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.tip-artical-right-cart button:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}

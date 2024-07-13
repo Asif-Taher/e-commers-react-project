@@ -1,0 +1,34 @@
+.cart-image{
+    width: 100%;
+}
+.package-cart{
+    padding: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 6px gray;
+    border-radius: 10px;
+}
+.package-cart:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.package-cart-top{
+    display: flex;
+    justify-content: space-between;
+}
+.package-cart-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.package-cart-bottom button{
+    padding: 10px 25px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.package-cart-bottom button:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: pointer;
+}

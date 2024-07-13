@@ -1,0 +1,46 @@
+.hero{
+    width: 100%;
+    height: 600px;
+    background-image: url('../../Assets/hero_img.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+.hero-container{
+   padding-top: 200px;
+   margin-left: 50px;
+}
+.hero-container h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-container p{
+    font-size: 15px;
+    color: #fff;
+}
+.hero-container-input{
+    display: flex;
+    width: 550px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-ul{
+    display: flex;
+}
+.hero-ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+.hero-container-input button{
+    width: 120px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 20px;
+}
